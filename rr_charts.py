@@ -7,14 +7,8 @@ Created on Fri May 30 23:06:24 2014
 
 import numpy as np
 import matplotlib.pyplot as plt
-import matplotlib
-from matplotlib import cm
-import cubehelix
 
-
-
-
-amt,num,tot = np.loadtxt('rr.txt',unpack=True,skiprows=1)
+amt,num,tot = np.loadtxt('rr.txt', unpack=True, skiprows=1)
 
 plt.figure()
 plt.plot(amt,num, 'bo-')
